@@ -2,13 +2,13 @@
     <div class="header">
         <el-row>
             <!--Logo area-->
-            <el-col :xs="12" :sm="12" :md="4" :lg="5">
+            <el-col :xs="12" :sm="5" :md="5" :lg="5">
                 <div class="logo">
                     <span class="logo_suffix">客服支撑系统</span>
                 </div>
             </el-col>
             <!--call area-->
-            <el-col :xs="12" :sm="12" :md="8" :lg="14">
+            <el-col :xs="12" :sm="14" :md="14" :lg="14">
                 <div class="head-call">
                     <div class="head-call-all">
                         <div class="item-icon">
@@ -56,7 +56,7 @@
                             <p>回拨提醒</p>
                         </div>
                         <div class="item-icon">
-                            <el-dropdown trigger="click">
+                            <el-dropdown trigger="click" menu-align="start">
                               <span class="el-dropdown-link">
                                 <i style="color: #ffffff;" class="el-icon-caret-bottom el-icon--right"></i>
                               </span>
@@ -74,11 +74,32 @@
                 </div>
             </el-col>
             <!--myself area-->
-            <el-col :xs="12" :sm="12" :md="4" :lg="5">
+            <el-col :xs="12" :sm="5" :md="5" :lg="5">
                 <div class="head-myself">
                     <div class="head-myself-top">
+                        <div class="myself-item-all">
+                            <div class="myself-item"><i class="iconfont icon-people"></i></div>
+                            <div class="myself-item"><i class="iconfont icon-message"></i></div>
+                            <div class="myself-item"><i class="iconfont icon-iconfontjilufuzhi"></i></div>
+                            <div class="myself-item"><i class="iconfont icon-tongji"></i></div>
+                            <div class="myself-item"><i class="iconfont icon-pingjiajilu"></i></div>
+                            <div class="myself-item"><i class="iconfont icon-icon"></i></div>
+                        </div>
                     </div>
                     <div class="head-myself-bottom">
+                        <div class="myself-bottom-item">
+                            <div class="item-circle"></div><span>就绪</span>
+                        </div>
+                        <div class="myself-bottom-item">
+                            <div class="item-circle"></div><span>忙</span>
+                        </div>
+                        <div class="myself-bottom-item">
+                            <div class="item-circle"></div><span>话后</span>
+                        </div>
+                        <div class="myself-bottom-time">
+                            <p>|  通话时间 <span>129</span> 秒</p>
+                        </div>
+
                     </div>
                 </div>
             </el-col>
@@ -108,7 +129,6 @@
     .head-call-all{
         color: #ffffff;
         display: table;
-        height: 10px;
         margin: 0 auto 0 auto;
     }
     .head-call-all .item-icon{
@@ -118,7 +138,6 @@
         height: 60px;
         cursor: pointer;
         color: #fffffff;
-
     }
     .head-call-all .item-icon i{
         font-size: 18px;
@@ -126,7 +145,7 @@
     .head-call-all .item-icon .icon-circle{
         width: 30px;
         height: 30px;
-        line-height: 32px;
+        line-height: 30px;
         margin: 4px auto;
         border: 1px solid #ffffff;
         border-radius: 50%;
@@ -147,5 +166,60 @@
     .head-myself-bottom{
         width: 100%;
         height: 30px;
+    }
+    .myself-item-all{
+        color: #ffffff;
+        display: table;
+        float: right;
+        margin-right: 5px;
+    }
+    .myself-item{
+        display:table-cell;
+        text-align: center;
+        width: 34px;
+        line-height: 26px;
+        height: 26px;
+        cursor: pointer;
+        color: #fffffff;
+    }
+    .head-myself-bottom{
+        width: 245px;
+        height: 24px;
+        line-height: 24px;
+        border-radius: 24px;
+        background: #ffffff;
+        float: right;
+        margin-right: 10px;
+
+    }
+    .myself-bottom-item{
+        height: 24px;
+        float: left;
+        margin-left: 10px;
+        line-height: 26px;
+        font-size: 13px;
+    }
+    .item-circle{
+        width: 8px;
+        height: 8px;
+        float: left;
+        margin-right: 3px;
+        margin-top: 8px;
+        border-radius: 50%;
+        background: #13CE66;
+    }
+    .myself-bottom-time{
+        width: auto;
+        height: 24px;
+        color: #99A9BF;
+        line-height: 26px;
+        margin-left: 5px;
+        font-size: 13px;
+        float: left;
+    }
+    .myself-bottom-time span{
+        color: #FF4949;
+        font-size: 16px;
+        line-height: 20px;
     }
 </style>
