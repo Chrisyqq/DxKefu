@@ -53,12 +53,12 @@
                   <input class="sidebar-search-input" placeholder="请输入内容">
                   <button class="sidebar-search-button"><i class="el-icon-search"></i></button>
               </el-col>
-              <el-row class="assets-search-type">
+              <el-col class="assets-search-type">
                     <el-col :span="6"><div class="assets-search-type-item">同客户</div></el-col>
                     <el-col :span="6"><div class="assets-search-type-item">同客户</div></el-col>
                     <el-col :span="6"><div class="assets-search-type-item">同客户</div></el-col>
                     <el-col :span="6"><div class="assets-search-type-item">同客户</div></el-col>
-              </el-row>
+              </el-col>
             </el-row>
         </div>
 
