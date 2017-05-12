@@ -313,11 +313,20 @@
     }
     .tool-cabinet-item{
         flex: none;
-        height: 70px;
+        height: 60px;
         width: 76px;
+        padding-top: 10px;
         text-align: center;
         margin-top: 4px;
         background: #262626;
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .tool-cabinet-item i{
+        font-size: 22px;
+    }
+    .tool-cabinet-item p{
+        margin-top: 5px;
     }
     .tool-cabinet-choose{
         min-width: 415px;
@@ -327,6 +336,7 @@
         left: 100%;
         margin-left: 6px;
         top: -220px;
+        z-index: 100;
     }
     .tool-cabinet-choose-box{
         height: 426px;
@@ -354,12 +364,20 @@
         color: #4286B2;
     }
     .tool-cabinet-choose-item{
-        height: 70px;
+        height: 60px;
         width: 76px;
         float: left;
+        padding-top: 10px;
         margin-right: 2px;
         text-align: center;
         background: #262626;
+        font-size: 13px;
+    }
+    .tool-cabinet-choose-item i{
+        font-size: 22px;
+    }
+    .tool-cabinet-choose-item p{
+        margin-top: 5px;
     }
     /*定义自定义功能滑动*/
     .slide-fade-enter-active {

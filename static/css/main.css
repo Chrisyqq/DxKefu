@@ -19,3 +19,13 @@ a{text-decoration: none}
 .icon-zeng02{
     color: #E37C22;
 }
+.content{
+    background: none repeat scroll 0 0 #E8E8E9;
+    position: absolute;
+    left: 20%;
+    right: 0;
+    top: 60px;
+    bottom:0;
+    width: auto;
+    box-sizing: border-box;
+}
