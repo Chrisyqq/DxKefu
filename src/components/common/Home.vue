@@ -8,7 +8,11 @@
         </div>
     </div>
 </template>
-
+<style>
+    .wrapper{
+        height: 100%;
+    }
+</style>
 <script>
     import vHead from './header.vue'
     import vSidebar from './sidebar.vue'
