@@ -16,17 +16,19 @@
 </template>
 <script>
     export default {
-        data: () => ({
-            nowActive: "",
-            examplePage: [
-                {title:'故障'},
-                {title:'财务'},
-                {title:'流量'},
-                {title:'营销'},
-                {title:'国漫'},
-                {title:'投诉'}
-            ]
-        }),
+        data () {
+            return {
+                nowActive: "",
+                examplePage: [
+                    {title:'故障'},
+                    {title:'财务'},
+                    {title:'流量'},
+                    {title:'营销'},
+                    {title:'国漫'},
+                    {title:'投诉'}
+                ]
+            }
+        },
         props:['vtitle'],
         methods: {
             tagActive: function(){
