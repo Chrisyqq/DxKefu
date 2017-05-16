@@ -97,7 +97,7 @@
 
                     </div>
                     <div class="package-right-item small">
-                        <div class="package-right-item-head">星级</div><vStar v-bind:point="grade"></vStar>
+                        <div class="package-right-item-head">星级</div><vStar v-bind:point="grade"></vStar><span class="orange">4星</span>
                     </div>
                     <div class="package-right-item small">
                         <div class="package-right-item-head">有效时间</div><span>2013.10.1 - 2022.9.30</span>

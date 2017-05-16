@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26ff0409-b88e-4611-852c-f2692de2b136" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/smallui/star.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/package.vue" afterPath="$PROJECT_DIR$/src/components/common/package.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/pageTitle.vue" afterPath="$PROJECT_DIR$/src/components/common/pageTitle.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/smallui/star.vue" afterPath="$PROJECT_DIR$/src/components/smallui/star.vue" />
     </list>
     <ignored path="DxKefu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="96">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#323#355#0" expanded="true" />
               </folding>
@@ -50,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/common/package.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+            <state relative-caret-position="168">
+              <caret line="99" column="124" selection-start-line="99" selection-start-column="124" selection-end-line="99" selection-end-column="124" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#el-popover#0;n#div#4;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -82,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="star.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="star.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/smallui/star.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+            <state relative-caret-position="152">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -130,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/components/common/packageLine.vue" />
         <option value="$PROJECT_DIR$/src/components/common/pageTitle.vue" />
         <option value="$PROJECT_DIR$/src/components/smallui/star.html" />
-        <option value="$PROJECT_DIR$/src/components/smallui/star.vue" />
         <option value="$PROJECT_DIR$/src/components/common/package.vue" />
+        <option value="$PROJECT_DIR$/src/components/smallui/star.vue" />
       </list>
     </option>
   </component>
@@ -417,12 +415,12 @@
       <workItem from="1494810103997" duration="941000" />
       <workItem from="1494814473948" duration="2756000" />
       <workItem from="1494817509336" duration="7741000" />
-      <workItem from="1494830713229" duration="31917000" />
+      <workItem from="1494830713229" duration="32214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68508000" />
+    <option name="totallyTimeSpent" value="68805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,16 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#323#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/page/homePage.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -810,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/smallui/star.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/packageCase.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -826,13 +806,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#323#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/package.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+        <state relative-caret-position="168">
+          <caret line="99" column="124" selection-start-line="99" selection-start-column="124" selection-end-line="99" selection-end-column="124" />
           <folding>
             <element signature="n#style#0;n#div#0;n#el-popover#0;n#div#4;n#div#0;n#el-col#1;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/smallui/star.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
