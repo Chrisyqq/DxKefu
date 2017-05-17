@@ -97,10 +97,17 @@
 
                     </div>
                     <div class="package-right-item small">
-                        <div class="package-right-item-head">星级</div><vStar v-bind:point="grade"></vStar><span class="orange">4星</span>
+                        <div class="package-right-item-head">星级</div><vStar v-bind:point="grade"></vStar><span class="orange font-normal font-float margin-auto">4星</span><i class="iconfont icon-huiyuanquanyi orange font-normal margin-auto font-float"></i>
                     </div>
                     <div class="package-right-item small">
                         <div class="package-right-item-head">有效时间</div><span>2013.10.1 - 2022.9.30</span>
+                    </div>
+                    <div class="package-right-item small">
+                        <div class="package-right-item-head">客户经理</div>
+                        <span class="font-normal font-float">张三 (星级) </span>
+                        <i class="iconfont icon-tubiao210 font-float font-normal margin-auto icon-color"></i>
+                        <i class="iconfont icon-youjian font-float font-normal margin-auto icon-color"></i>
+                        <i class="iconfont icon-gongdan font-float font-normal margin-auto icon-color"></i>
                     </div>
                 </div>
             </el-col>
@@ -141,6 +148,12 @@
     }
     .red{
         color: #F71818;
+    }
+    .font-float{
+        float: left;
+    }
+    .margin-auto{
+        margin-left: 5px;
     }
     .orange{
         color: #FF8000;
@@ -524,8 +537,8 @@
         width: 100%;
     }
     .package-right-item{
-        height: 26px;
-        line-height: 26px;
+        height: 30px;
+        line-height: 30px;
         float: left;
         text-align: left;
         color: #333333;

@@ -11,7 +11,6 @@
         color: #FFCC01;
         font-size: 16px;
         margin-right: 2px;
-
     }
 </style>
 <script>
@@ -23,9 +22,6 @@
         },
         props: ['point'],
         methods: {
-            num: function () {
-                return 1;
-            }
         }
     }
 </script>

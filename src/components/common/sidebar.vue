@@ -340,7 +340,7 @@
     }
     .tool-cabinet-choose-box{
         height: 426px;
-        overflow-y: scroll;
+        overflow: auto;
     }
     .tool-cabinet-choose .head{
         height: 34px;
@@ -369,6 +369,7 @@
         float: left;
         padding-top: 10px;
         margin-right: 2px;
+        margin-top: 2px;
         text-align: center;
         background: #262626;
         font-size: 13px;
