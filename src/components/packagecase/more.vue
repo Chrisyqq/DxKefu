@@ -180,6 +180,9 @@
     }
     .text-sun button{
         background: #63ADE3;
-        color: #ffffff;
+        color: #ffffff !important;
+    }
+    .text-sun button:hover{
+        color: #ffffff !important;
     }
 </style>

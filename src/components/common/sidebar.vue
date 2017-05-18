@@ -307,9 +307,13 @@
     }
     .tool-cabinet-box{
         display: -webkit-flex; /* Safari */
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
     }
     .tool-cabinet-item{
         flex: none;
@@ -321,6 +325,7 @@
         background: #262626;
         font-size: 13px;
         font-weight: 100;
+        margin-right: 5px;
     }
     .tool-cabinet-item i{
         font-size: 22px;

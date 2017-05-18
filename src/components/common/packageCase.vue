@@ -1,8 +1,6 @@
 <template>
     <div class="package-case">
-        <vMore v-if="kinds.length>3" v-bind:kind="kinds"></vMore>
-        <vLess v-if="kinds.length<3" v-bind:kind="kinds"></vLess>
-        <vNone v-bind:kind="kinds"></vNone>
+        <vLess v-if="kinds.length>3" v-bind:kind="kinds"></vLess>
     </div>
 </template>
 <script>

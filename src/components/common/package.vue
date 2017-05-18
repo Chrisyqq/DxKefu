@@ -537,8 +537,8 @@
         width: 100%;
     }
     .package-right-item{
-        height: 30px;
-        line-height: 30px;
+        height: 26px;
+        line-height: 26px;
         float: left;
         text-align: left;
         color: #333333;
