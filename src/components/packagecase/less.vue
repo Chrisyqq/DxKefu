@@ -26,34 +26,13 @@
                     </div>
                 </div>
             </div>
-            <div class="package-case-state">
-                <div class="state-item" v-for="item in kind" v-bind:class="item.type">
-                    <div class="item-sun">
-                        <div class="header">
-                            <span class="title">{{item.title}}</span>
-                            <div class="small-title" v-if="item.title !== '工单'">( <span>{{item.sun.length}}</span> )</div>
-                            <div class="small-title-right" v-else>近一个月的<span>{{item.sun.length}}</span>单</div>
-                            <div class="turn-button" v-if="item.sun.length>1">
-                                <i class="iconfont icon-zuo" @click="changingOver(item.sun.length,'left',$event)"></i><i class="iconfont icon-you" @click="changingOver(item.sun.length,'right',$event)"></i>
-                            </div>
-                        </div>
-                        <div class="text">
-                            <div class="text-sun-all" num="1">
-                                <div class="text-sun" v-for="item in item.sun">
-                                    <p class="title">{{item.smallTitle}}</p>
-                                    <p class="text-area">{{item.text}}</p>
-                                    <div class="button">
-                                        <el-button v-for="(item,index) in item.button" size="small" :key="index">{{item}}</el-button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="less-right">
+            <div class="set-meal">
+                <div class="">
 
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -101,10 +80,10 @@
         justify-content: center;
         -ms-flex-pack: center;
         -webkit-justify-content: center;
+        height: 100%;
     }
-    .less-right{
-        flex: 1;
-    }
+
+    /* 左部面板 */
     .less-left{
         flex: 1;
     }
@@ -231,5 +210,18 @@
     .text-sun button{
         background: #63ADE3;
         color: #ffffff;
+    }
+
+    /* 右部面板 */
+
+    .less-right{
+        flex: 1;
+    }
+    .set-meal{
+        background: #ffffff;
+        height: 100%;
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 </style>

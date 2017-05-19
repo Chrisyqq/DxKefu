@@ -2,6 +2,8 @@
     <div class="pageTitle">
         <div class="title-item">
             <div @click="tagActive" v-bind:class="nowActive" class="title-item-tag active">首页</div>
+        </div>
+        <div class="nav-bar">
             <div class="example-item">
                 <div class="item" v-for="item in examplePage">{{item.title}}</div>
             </div>
@@ -45,16 +47,17 @@
         background: #5C5C5C;
     }
     .pageTitle .title-item{
-        width: 75%;
         height: 40px;
         line-height: 40px;
         float: left;
     }
     .pageTitle-search{
-        width: 25%;
+        float: right;
+        width: 320px;
         height: 30px;
-        float: left;
         margin-top: 3px;
+        position: relative;
+        margin-right: 40px;
     }
     .pageTitle-search .search{
         padding: 3px;
@@ -71,7 +74,7 @@
     .pageTitle-search .search i{
         position: absolute;
         right: 10px;
-        top: 12px;
+        top: 9px;
         background: #ffffff;
     }
     ::-webkit-input-placeholder {color: #D3D3D3;}
@@ -127,8 +130,14 @@
     from {left: 50%;width:0;}
     to {left: 0;width:100%;}
     }
+    .nav-bar{
+        width: auto;
+        height: 40px;
+        float: right;
+    }
     .example-item{
         display: table;
+        height: 40px;
         float: right;
     }
     .example-item .item{
@@ -136,6 +145,7 @@
         text-align: center;
         width: 60px;
         height: 40px;
+        line-height: 40px;
         font-size: 14px;
         cursor: pointer;
     }
